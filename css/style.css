@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+--animation-name: hsl(0, 0%, 100%);
+--Lightgray: hsl(212, 45%, 89%);
+--Grayishblue: hsl(220, 15%, 55%);
+--Darkblue: hsl(218, 44%, 22%);
+--fontmain: 'Outfit';
+}
+
+body {
+    margin: 150px 0px;
+    background-color: var(--Lightgray);
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--Grayishblue);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+    color: var(--Darkblue);
+}
+
+.card {
+    width: fit-content;
+    height: auto;
+    padding: 15px 15px;
+    background-color: var(--animation-name);
+    border-radius: 20px;
+}
+
+img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.grid-container {
+    display: inline-grid;
+}
+
